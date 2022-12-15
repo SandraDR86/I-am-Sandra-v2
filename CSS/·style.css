@@ -1,0 +1,169 @@
+body {
+    text-align: center;
+    margin: 0px;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+    line-height: 2;
+
+}
+
+
+h1 {
+    font-family: 'Sacramento';
+    font-size: 90px;
+}
+
+
+h1,
+h2 {
+    color: #66bfbf;
+}
+
+
+h2 {
+    margin-top: 0px;
+    margin: 0 auto 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    padding: 20px;
+    /*esto es para separar el titulo de la foto y el get in touch de la linea*/
+}
+
+/*esto es para cambiar el color del h3 y los link*/
+h3,
+a {
+    color: #11999e;
+}
+
+hr {
+    border: dotted 10px;
+    /*todas estas caracteristicas es para añadir los puntitos de separación en gris*/
+    border-bottom: none;
+    width: 6%;
+    color: #EAF6F6;
+    MARGIN-TOP: 40px;
+}
+
+
+
+
+.top-container {
+    background-color: #CFF5E7;
+    padding-top: 100px;
+    position: relative;
+}
+
+
+.top-cloud {
+    position: absolute;
+    top: 40px;
+    right: 200px
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 200px;
+    bottom: 300px;
+}
+
+/*esto es para mover los gift o icon a la izquierda, tengo que seleccionar el class del div y no de la imagen*/
+.skill-row {
+    width: 50%;
+    margin: 50px auto 50px auto;
+    /*esto es para que quede centrado y a una distancia separada de debajo de My Skills, para separar x eje 100px auto*/
+    text-align: justify;
+    /*esto es para poner el texto al lado de la imagen a la izq*/
+}
+
+
+.tagImage {
+    width: 25%;
+    float: left;
+    /*esto es para que la imagen quede a la izq del texto*/
+    margin-right: 30px;
+    /*esto es para darle un margen entre la imagen y el texto*/
+    clear: left;
+}
+
+.tagGif {
+    width: 30%;
+    float: right;
+    /*esto es para poner la imagen a la izq del texto*/
+    clear: right;
+    margin-left: 30px;
+}
+
+.profile {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+/*esto es para centrar el hello y el texto debajo de hello al centro*/
+
+/*esto es para redondear la imagen pero no me funciona, solo me va si lo hago seleccionando img, pero así me redondea todas las imágenes*/
+.profile-pic {
+    border-radius: 75px;
+
+
+}
+
+.p {
+    line-height: 2;
+    /*esto es el interlineado del texto en toda la web*/
+    text-align: justify;
+}
+
+.contact-button {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.contact-button:hover {
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+    text-decoration: none;
+}
+
+.bottom-container {
+    background-color: #80d3d3;
+    padding-top: 10px;
+    padding-bottom: 30px
+}
+
+.contact-me {
+    margin-bottom: 100px;
+}
+
+.footer-link {
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #EAF6F6
+}
+
+.copy-right {
+    color: #EAF6F6;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: small;
+}
+
